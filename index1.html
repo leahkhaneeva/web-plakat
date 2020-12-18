@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta name="viewport" content="width=device-width, initial scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <title></title>
+  <style media="screen">
+    /* html {
+      background: transparent;
+      position: relative;
+      height: 100%;
+      width: 100%
+    } */
+    body::before {
+      content: "";
+      position: absolute;
+
+      background: url('images/mbpro1.jpg');
+      height: 11081px;
+      width: 1680px;
+      display:block;
+      opacity: .2;
+    }
+    /* .container {
+      width:1680px;
+      display:inline-block;
+      margin-top:-3px;
+    } */
+
+
+    .row1 {
+      width: 1680px;
+      height: 886px;
+      left: 0;
+      top: 0;
+      right: 0;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      background-color: #8000D4;
+      text-align:center;
+    }
+    .container {
+      position: relative;
+      /* display: block; */
+      width: 557px;
+      height: 875px;
+      /* text-align: center; */
+    }
+    .logo {
+    position: relative;
+    margin-top: 320px;
+    }
+    .gsquare1 {
+      width: 792px;
+      height: 962px;
+      display: inline-block;
+      vertical-align: top;
+      position:relative;
+      background-color: #3ED37D;
+      /* opacity: .2; */
+    }
+
+    .panel {
+      height: 627px;
+      width: 488px;
+      border-radius: 210px;
+      margin-top: 145px;
+      margin-left: 137px;
+      display: block;
+      position:relative;
+      background-color: white;
+      border: 17px solid #FF57B3;
+      /* margin-left: 100px;
+      margin-top: 140px; */
+      /* text-align: center; */
+      /* opacity: .4; */
+    }
+    .pcircle {
+      height: 88px;
+      width: 88px;
+      background-color: #FF57B3;
+      /* position: absolute; */
+      position: relative;
+      display: inline-block;
+      margin-top: 108px;
+      margin-left: 54px;
+      margin-bottom: -60px;
+      text-align: center;
+      border-radius: 100%
+
+    }
+
+    .pcircle:hover {
+        background-color: #3ED37D;
+      }
+      .wcircle {
+        width: 45px;
+        height: 45px;
+        margin-top: 14px;
+        margin-left: 13px;
+        display: block;
+        background: transparent;
+        border: 8px solid white;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+      .btn1 {
+        width: 128px;
+        height: 59px;
+        border-radius: 210px;
+        background-color: #3ED37D;
+        display: block;
+        margin-left: 180px;
+        margin-top: 95px;
+      }
+      .btn1:hover {
+          background-color: #FF57B3;
+        }
+    .pisquare1 {
+      width: 888px;
+      height: 962px;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      background-color: #FF57B3;
+      /* opacity: .3; */
+      text-align: center;
+    }
+    /* .friend1 {
+      position: relative;
+      display: block;
+    } */
+
+    .hair1 {
+      position: relative;
+      width: 454px;
+      height: 191px;
+      background-color: #8000D4;
+      margin-left: 222px;
+      margin-top: 88px;
+      /* opacity: .5 */
+    }
+
+
+    .head1 {
+      position: relative;
+      width: 358px;
+      height: 358px;
+      background-color: #FF8947;
+      margin-left: 270px;
+      margin-top: -120px;
+      /* opacity: .5 */
+      /* margin-left: 221px;
+      margin-top: 88px; */
+    }
+    .star {
+      position: absolute;
+      margin-left: -30px;
+      margin-top: -20px;
+    }
+    .eyebrow {
+      position: absolute;
+      width: 95px;
+      height: 31px;
+      margin-left: 285px;
+      margin-top: 40px;
+      background-color: black;
+    }
+    .bheye1 {
+      position: absolute;
+      width: 174px;
+      height: 30px;
+      margin-left: -63px;
+      margin-top: 80px;
+      background-color: black;
+    }
+    .wheye1 {
+      position: absolute;
+      width: 174px;
+      height: 30px;
+      margin-left: -63px;
+      margin-top: 110px;
+      background-color: white;
+    }
+    .nose1 {
+      position: absolute;
+      margin-top: 110px;
+      margin-left: 125px;
+    }
+    .heye2 {
+      position: absolute;
+      margin-left: 500px;
+      margin-top: 90px;
+      margin-left: 228px;
+
+    }
+    .white {
+      position: relative;
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      background-color: white;
+      margin-top: 320px;
+      margin-left: 80px;
+      margin-right: -70px;
+    }
+
+    .mouth1 {
+      position: absolute;
+      margin-top: 190px;
+      margin-left: -20px;
+      animation-name: mouth1;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes mouth1 {
+      /* 0% {left: 10px;}
+      50% {left: -35px;}
+      100% {left: 10px;} */
+      0% {left:0;}
+      50% {left:0; transform:scale(1.2);}
+      100% {left:0;}
+    }
+    .neck1 {
+      width: 64px;
+      height: 95px;
+      position: relative;
+      margin-left: 416px;
+      margin-top: -5px;
+      background-color: #FF8947;
+    }
+    .chest {
+      position: relative;
+      margin-left: 11px;
+      margin-top: -50px;
+    }
+    .body1 {
+      width: 557px;
+      height: 197px;
+      position: relative;
+      background-color: #8000D4;
+      margin-left: 169px;
+      margin-top: -5px;
+    }
+    .pusquare1{
+      width: 891px;
+      height: 1090px;
+      display: inline-block;
+      vertical-align: top;
+      /* position:relative; */
+      background-color: #8000D4;
+      text-align: center;
+    }
+    .eye1 {
+      display: block;
+      position: relative;
+      margin-top: 382px;
+      text-align: center;
+    }
+    .zrachok1{
+      display: block;
+      position: relative;
+      width: 149px;
+      height: 272.62px;
+      border-radius: 50%;
+      background-color: black;
+      margin-top: -300px;
+      margin-left: 320px;
+      animation-name: zrachok1;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes zrachok1 {
+      0% {left: 10px;}
+      50% {left: -35px;}
+      100% {left: 10px;}
+    }
+    .osquare1 {
+      width: 788px;
+      height: 1090px;
+      display: inline-block;
+      vertical-align: top;
+      /* position:relative; */
+      /* position: relative; */
+      background-color: #FF8947;
+      /* opacity: .3; */
+      text-align: center;
+    }
+    .shelf1 {
+      height: 851px;
+      width: 480px;
+      border-radius: 210px;
+      margin-top: -985px;
+      margin-left: 140px;
+      display: block;
+      position: relative;
+      background-color: white;
+      border: 17px solid #8000D4;
+      /* opacity: .2; */
+    }
+    .pipe1 {
+      position: relative;
+      height: 1091px;
+      width: 25px;
+      background-color: #8000D4;
+      margin-top: -1px;
+      margin-left: 380px;
+    }
+    .glasses {
+      position: absolute;
+      margin-left: 62px;
+      margin-top:100px;
+    }
+    .crown {
+      position: absolute;
+      margin-left: 35px;
+      margin-top: 310px;
+    }
+
+    .star2 {
+      position: absolute;
+      margin-left: 269px;
+      margin-top: 300px;
+    }
+    .squares {
+      position: relative;
+      display: inline-block;
+      height: 71px;
+      width: 71px;
+      margin-top: 500px;
+      margin-left: -100px;
+      margin-right: 117px;
+      background-color: #FF7D34;
+    }
+    .polygon {
+      position: absolute;
+      margin-left: 280px;
+      margin-top: -93px;
+    }
+    .palki {
+      position: relative;
+      display: inline-block;
+      height: 128px;
+      width: 19px;
+      margin-top: 40px;
+      margin-left: -100px;
+      margin-right: 110px;
+      background-color: #5955E7;
+    }
+    .frame1 {
+      position: absolute;
+      height: 120px;
+      width: 180px;
+      background: transparent;
+      border: 8px solid #FF57B3;
+      border-radius: 143px;
+      margin-left: 230px;
+      margin-top: -127px;
+    }
+    .p1 {
+       font-size: 23px;
+       font-weight: bold;
+       margin-top: 14px;
+    }
+    .btntr {
+      position: absolute;
+      margin-left: 38px;
+      margin-top: 20px;
+    }
+    .btntr2 {
+      position: absolute;
+      margin-left: 120px;
+      margin-top: 19px;
+    }
+    .btncir {
+      position: absolute;
+      height: 27px;
+      width: 27px;
+      border-radius: 50%;
+      margin-left: 77px;
+      margin-top: 20px;
+      background-color: #3ED37D
+    }
+    .crab {
+      position: absolute;
+      margin-left: 333px;
+      animation-name: crab;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+
+    }
+    @keyframes crab {
+      0% {top:95px;}
+      50% {top:590px;}
+      100% {top:95px;}
+    }
+    .pisquare2 {
+      width: 789px;
+      height: 947px;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      background-color: #FF57B3;
+      /* opacity: .3; */
+      text-align: center;
+    }
+    .gcircle {
+      position: relative;
+      width: 229px;
+      height: 229px;
+      margin-left: 51px;
+      margin-top: 50px;
+      border-radius: 50%;
+      background-color: #3ED37D;
+    }
+    .ostick{
+      position: relative;
+      width: 79px;
+      height: 374px;
+      margin-left: 560px;
+      margin-top: -200px;
+      transform: rotate(-33deg);
+      background-color: #FF8947;
+
+    }
+    .semicircle {
+      position: relative;
+      background-color: white;
+      width: 418px;
+      height: 209px;
+      border-radius: 0 0 230px 230px;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .ptriangle{
+      position: relative;
+      margin-left: 370px;
+      margin-top: -60px;
+
+    }
+    .gsquare2 {
+      width: 891px;
+      height: 947px;
+      display: inline-block;
+      vertical-align: top;
+      position:relative;
+      background-color: #3ED37D;
+      opacity: .3;
+    }
+    .ear1 {
+      position: relative;
+      width: 81px;
+      height: 73px;
+      margin-left: 244px;
+      margin-top: 67px;
+      background-color: #FF57B3;
+    }
+    .head2 {
+      position: relative;
+      width: 330px;
+      height: 330px;
+      margin-left: 244px;
+      margin-top: -5px;
+      background-color: #FF57B3;
+    }
+
+    .ear2{
+      position: relative;
+      width: 126px;
+      height: 115px;
+      margin-left: 573px;
+      margin-top: -146px;
+      background-color: #8000D4;
+    }
+    .brow1 {
+      position: relative;
+      margin-top: -286px;
+      margin-left: 210px;
+    }
+    .wheye2 {
+      position: relative;
+      width: 121px;
+      height: 121px;
+      margin-left: 272px;
+      margin-top: -3px;
+      background-color: white;
+    }
+    .beye2 {
+      position: relative;
+      width: 57px;
+      height: 57px;
+      margin-left: 306px;
+      margin-top: -95px;
+      background-color: black;
+    }
+    .wheye3 {
+      position: relative;
+      width: 19px;
+      height: 19px;
+      margin-left: 325px;
+      margin-top: -46px;
+      background-color: white;
+    }
+    .nose2 {
+      position: relative;
+      width: 121px;
+      height: 23px;
+      margin-left: 201px;
+      margin-top: 85px;
+      background-color: black;
+    }
+    .brow2 {
+      position: relative;
+      margin-left: 510px;
+      margin-top: -90px;
+    }
+    .wheye4 {
+      position: relative;
+      width: 138px;
+      height: 138px;
+      margin-left: 417px;
+      margin-top: -10px;
+      border-radius: 50%;
+      background-color: white;
+    }
+    .beye3{
+      position: relative;
+      width: 62px;
+      height: 62px;
+      margin-left: 428px;
+      margin-top: -108px;
+      border-radius: 50%;
+      background-color: black;
+    }
+    .wheye5 {
+      position: relative;
+      width: 16px;
+      height: 16px;
+      margin-left: 460px;
+      margin-top: -47px;
+      border-radius: 50%;
+      background-color: white;
+    }
+    .beye4{
+      position: relative;
+      width:27px;
+      height: 27px;
+      margin-left: 482px;
+      margin-top: -50px;
+      border-radius: 50%;
+      background-color: black;
+    }
+    .body2{
+      position: relative;
+      width: 254px;
+      height: 483px;
+      margin-top: 126px;
+      margin-left: 280px;
+      background-color: #8000D4;
+    }
+    .beard {
+      position: relative;
+      margin-left: 190px;
+      margin-top: -550px;
+      width: 205px;
+      height: 169px;
+    }
+    .mouth2 {
+      position: relative;
+      width: 65px;
+      height: 40px;
+      margin-left: 263px;
+      margin-top: -150px;
+      background-color: black;
+    }
+    .wrect {
+      position: relative;
+      width: 356px;
+      height: 132px;
+      margin-top: 230px;
+      margin-left: 230px;
+      background-color: white;
+    }
+
+    .pusquare2 {
+      width: 717px;
+      height: 889px;
+      display: inline-block;
+      vertical-align: top;
+      position:relative;
+      background-color: #8000D4;
+      text-align: center;
+    }
+    .osquare2 {
+      width: 962px;
+      height: 889px;
+      display: inline-block;
+      vertical-align: top;
+      position:relative;
+      background-color: #FF8947;
+      /* opacity: .3; */
+      text-align: center;
+    }
+    .gsquare3 {
+      width: 842px;
+      height: 819px;
+      display: inline-block;
+      vertical-align: top;
+      position:relative;
+      background-color: #3ED37D;
+    }
+    .pisquare3 {
+      width: 838px;
+      height: 819px;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      background-color: #FF57B3;
+      /* opacity: .3; */
+      text-align: center;
+    }
+    .row2{
+      width: 1680px;
+      height: 731px;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      background-color: #8000D4;
+      text-align:center;
+    }
+
+  </style>
+<body>
+
+  <div class="row1">
+<div class="logo">
+  <img src="images/logo1.svg" alt="">
+</div>
+  </div><!--
+--><div class="gsquare1">
+      <!-- <div class="container"> -->
+        <div class="panel">
+            <div class="pcircle">
+               <div class="wcircle">
+               </div>
+            </div>
+            <div class="pcircle">
+              <div class="wcircle">
+              </div>
+            </div>
+            <div class="pcircle">
+              <div class="wcircle">
+              </div>
+            </div>
+            <div class="pcircle">
+              <div class="wcircle">
+              </div>
+            </div>
+            <div class="pcircle">
+              <div class="wcircle">
+              </div>
+            </div>
+            <div class="pcircle">
+              <div class="wcircle">
+              </div>
+            </div>
+            <div class="pcircle">
+              <div class="wcircle">
+              </div>
+            </div>
+            <div class="pcircle">
+              <div class="wcircle">
+              </div>
+            </div>
+            <div class="pcircle">
+              <div class="wcircle">
+              </div>
+
+            </div>
+            <div class="btn1">
+            </div>
+        </div>
+      <!-- </div> -->
+     </div><!--
+       --><div class="pisquare1">
+            <!-- <div class="container"> -->
+            <div class="hair1">
+            </div>
+
+
+            <div class="head1">
+              <div class="star">
+                <img src="images/star.svg" alt="">
+              </div>
+              <div class="eyebrow">
+              </div>
+              <div class="mouth1">
+                <img src="images/mouth1.svg" alt="">
+              </div>
+              <div class="bheye1">
+              </div>
+              <div class="wheye1">
+              </div>
+              <div class="nose1">
+                <img src="images/nose1.svg" alt="">
+              </div>
+              <div class="heye2">
+                <img src="images/heye2.svg" alt="">
+              </div>
+              <div class="white">
+              </div>
+              <div class="white">
+              </div>
+              <div class="white">
+              </div>
+              <div class="white">
+              </div>
+              <div class="white">
+              </div>
+
+            </div>
+
+            <div class="neck1">
+            </div>
+            <div class="chest">
+              <img src="images/chest.svg" alt="">
+            </div>
+            <div class="body1">
+
+            </div>
+           <!-- </div> -->
+
+          </div><!--
+--><div class="pusquare1">
+      <!-- <div class="container"> -->
+         <div class="eye1">
+           <img src="images/eye1.svg" alt="">
+            <div class="zrachok1">
+
+            </div>
+         </div>
+        <!-- </div> -->
+      </div><!--
+   --><div class="osquare1">
+      <!-- <div class="container"> -->
+          <div class="pipe1">
+          </div>
+          <div class="shelf1">
+            <div class="glasses">
+              <img src="images/glasses.svg" alt="">
+            </div>
+            <div class="crown">
+              <img src="images/crown.svg" alt="">
+            </div>
+            <div class="star2">
+             <img src="images/star2.svg" alt="">
+            </div>
+            <div class="squares">
+            </div>
+            <div class="squares">
+            </div>
+            <div class="polygon">
+              <img src="images/polygon.svg" alt="">
+            </div>
+            <br>
+            <div class="palki">
+            </div>
+            <div class="palki">
+            </div>
+            <div class="palki">
+            </div>
+            <div class="palki">
+            </div>
+            <div class="palki">
+            </div>
+            <div class="frame1">
+              <div class="p1">
+                выбери аксессуар
+              </div>
+              <div class="btntr">
+                <img src="images/btntr.svg" alt="">
+              </div>
+              <div class="btntr2">
+                <img src="images/btntr2.svg" alt="">
+              </div>
+              <div class="btncir">
+              </div>
+            </div>
+            <div class="crab">
+              <img src="images/crab.svg" alt="">
+            </div>
+        </div>
+          <!-- </div> -->
+
+      </div><!--
+  --><div class="pisquare2">
+       <!-- <div class="container"> -->
+          <div class="gcircle">
+          </div>
+          <div class="ostick">
+          </div>
+          <div class="semicircle">
+          </div>
+          <div class="ptriangle">
+            <img src="images/ptriangle.svg" alt="">
+          </div>
+        <!-- </div> -->
+
+     </div><!--
+--><div class="gsquare2">
+      <!-- <div class="container"> -->
+         <div class="ear1">
+         </div>
+         <div class="head2">
+           <!-- <div class="brow1">
+             <img src="images/brow1.svg" alt="">
+           </div> -->
+           <!-- <div class="wheye2">
+           </div> -->
+           <!-- <div class="beye2">
+           </div> -->
+           <!-- <div class="wheye3">
+           </div> -->
+           <!-- <div class="nose2">
+           </div> -->
+           <!-- <div class="brow2">
+             <img src="images/brow2.svg" alt="">
+           </div> -->
+           <!-- <div class="wheye4">
+           </div> -->
+           <!-- <div class="beye3">
+           </div> -->
+           <!-- <div class="wheye5">
+           </div> -->
+           <!-- <div class="beye4">
+           </div> -->
+         </div>
+         <div class="ear2">
+         </div>
+
+         <div class="body2">
+         </div>
+         <div class="beard">
+           <img src="images/beard.svg" alt="">
+         </div>
+         <div class="mouth2">
+         </div>
+         <div class="wrect">
+         </div>
+
+      <!-- </div> -->
+   </div><!--
+--><div class="pusquare2">
+
+</div><!--
+--><div class="osquare2">
+
+</div><!--
+--><div class="gsquare3">
+
+</div><!--
+--><div class="pisquare3">
+
+</div><!--
+--><div class="row2">
+
+</div>
+
+
+
+
+
+  </body>
+</html>
