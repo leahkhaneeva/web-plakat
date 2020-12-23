@@ -1,7 +1,7 @@
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Anglecia Pro Display';
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Helvetica';
 }
-a { color: inherit;
+/* a { color: inherit;
 }
 *{
   box-sizing: border-box;
-}
+} */
