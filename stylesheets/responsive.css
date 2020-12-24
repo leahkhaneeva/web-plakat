@@ -589,6 +589,7 @@ div .wzrachok {top: 22%; left: 33%;}
 div .lashes2 {margin-left: 14.55%;}
 div .p3 {font-size: 13px;margin-top: 1.3%;}
 }
+
 @media all and (max-width: 320px){
   div .ratio {position:relative; padding-bottom: 895.652174%; background:transparent;}
   div .row1 {height: 4.5%;}
