@@ -6,28 +6,8 @@
   <link rel="stylesheet" href="stylesheets/style.css">
   <title></title>
   <style media="screen">
-    /* html {
-      background: transparent;
-      position: relative;
-      height: 100%;
-      width: 100%
-    } */
-    /* body::before {
-      content: "";
-      position: absolute;
 
-      background: url('images/mbpro1.jpg');
-      height: 11081px;
-      width: 100%;
-      display:block;
-      opacity: .4;
-    } */
-    /* .container {
-      width:1680px;
-      display:inline-block;
-      margin-top:-3px;
-    } */
-    @@font-face {
+    @font-face {
       font-family: Helvetica;
       src:url("font/fonts/Helvetica.woff") format('woff');
     }
@@ -796,20 +776,37 @@
       background-color: #8000D4;
       /* opacity: .3; */
     }
-    .wheel1 {
+    .whel1 {
       position: absolute;
       width: 110%;
       top: 4%;
       right: -3%;
-      animation: wheel1 6s linear infinite;
+      animation: whel1 6s linear infinite;
     }
-    .wheel1:hover {
+    .whel1:hover {
       animation-direction:reverse;
     }
-    @keyframes wheel1 {
+    @keyframes whel1 {
       0% {transform: rotate(0deg);}
       100% {transform: rotate(360deg);}
     }
+    .whel2 {
+      position: absolute;
+      width: 110%;
+      top: 4%;
+      right: -3%;
+      opacity: 0;
+      animation: whel1 6s linear infinite;
+    }
+    .whel3 {
+      position: absolute;
+      width: 110%;
+      top: 4%;
+      right: -3%;
+      opacity: 0;
+      animation: whel1 6s linear infinite;
+    }
+
     .osquare2 {
       width: 57.3214286%;
       height: 8.02274163%;
@@ -2000,7 +1997,9 @@
          <img class="pinky2" src="images/pinky2.svg" alt="">
    </div><!--
 --><div class="pusquare2">
-     <img class="wheel1" src="images/wheeel2.svg" alt="">
+     <img class="whel1" src="images/wheeel2.svg" alt="">
+     <img class="whel2" src="images/wheeel2.svg" alt="">
+     <img class="whel3" src="images/wheeel2.svg" alt="">
    </div><!--
 --><div class="osquare2">
      <img class="leg1" src="images/leg1.svg" alt="">
