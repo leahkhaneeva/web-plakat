@@ -505,7 +505,7 @@ div .p3 {font-size: 20px;margin-top: 1.55%;}
   div .p3 {font-size: 18px;margin-top: 1.55%;}
 }
 
-@media all and (min-width: 769px)  and (max-width: 828px){
+@media all and (max-width: 828px){
 div .ratio {position:relative; padding-bottom: 895.652174%; background:transparent;}
 div .row1 {height: 4.5%;}
 div .gsquare1 {height: 6.97%; width: 46.6183575%;}
@@ -561,8 +561,8 @@ div .brow4 {width: 75%; margin-left: 4.8%;}
 div .eye3 {width: 75%; margin-left: 12%; margin-top: 50%;}
 div .zrachok5 {width: 27%; left: 36%;}
 div .p3 {font-size: 20px;margin-top: 1.7%;}
-
 }
+
 @media all and (min-width: 321px) and (max-width: 768px){
 div .ratio {position:relative; padding-bottom: 659.583333%; background:transparent;}
 
