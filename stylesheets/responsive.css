@@ -564,7 +564,13 @@ div .p3 {font-size: 20px;margin-top: 1.7%;}
 }
 
 @media all and (min-width: 321px) and (max-width: 768px){
-div .ratio {position:relative; padding-bottom: 659.583333%; background:transparent;}
+div .ratio {position:relative; padding-bottom: 657.161458%; background:transparent;}
+div .row1 {height: 6.10263523%;}
+div .gsquare1 {width: 46.8755; height: 9.5304141%;}
+
+
+
+
 
 div .panel {border: 8px solid #FF57B3; border-radius: 98px;}
 div .shelf1 {border-radius: 108px; border: 10px solid #8000D4;}
