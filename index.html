@@ -493,11 +493,11 @@
       text-align: center;
     }
     .gcircle {
-      position: relative;
+      position: absolute;
       width: 29%;
       height: 24%;
-      margin-left: 7%;
-      margin-top: 7%;
+      left: 7%;
+      top: 7%;
       border-radius: 50%;
       background-color: #3ED37D;
       animation: gcircle 3s infinite;
@@ -506,17 +506,17 @@
       animation-play-state: paused;
     }
     @keyframes gcircle {
-      0% {top:0%;}
+      0% {top:7%;}
       50% {top:8%; transform:scale(1.15);}
-      100% {top:0%;}
+      100% {top:7%;}
     }
 
     .ostick{
-      position: relative;
+      position: absolute;
       width: 8%;
       height: 40%;
-      margin-left: 70%;
-      margin-top: -25%;
+      left: 70%;
+      top: 5%;
       transform: rotate(-33deg);
       background-color: #FF8947;
       animation: ostick 3s infinite;
@@ -531,13 +531,13 @@
       100% {transform:rotate(-28deg);}
     }
     .semicircle {
-      position: relative;
+      position: absolute;
       background-color: white;
       width: 53%;
       height: 22%;
       border-radius: 0 0 230px 230px;
-      margin-left: 6%;
-      margin-top: 4%;
+      left: 6%;
+      top: 50%;
       animation: semicircle 3.1s infinite;
     }
     @keyframes semicircle {
@@ -549,20 +549,29 @@
       animation-play-state: paused;
     }
     .ptriangle{
-      position: relative;
-      margin-left: 48%;
-      margin-top: -7%;
+      position: absolute;
+      left: 50%;
+      top: 70%;
       width: 43%;
       animation: ptriangle 3s linear infinite;
     }
+
     .ptriangle:hover {
       animation-play-state: paused;
     }
     @keyframes ptriangle {
-      0% {left: -2%;}
-      50% {left: 2%;}
-      100% {left: -2%;}
+      0% {left: 50%;}
+      50% {left: 45%;}
+      100% {left: 50%;}
     }
+    .pitriangle {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 43%;
+    opacity: 0;
+    animation: ptriangle 3s linear infinite;
+  }
     .gsquare2 {
       position:relative;
       width: 53.0357143%;
@@ -812,26 +821,26 @@
       /* text-align: center; */
     }
     .leg1 {
-      position: relative;
+      position: absolute;
       width: 40.5%;
-      margin-left: 5.5%;
+      left: 7%;
       animation: leg1 2s linear infinite;
     }
     @keyframes leg1 {
-    0%{left: 0%;}
-    50%{left: -2%;}
-    100%{left: 0%;}
+    0%{left: 7%;}
+    50%{left: 4%;}
+    100%{left: 7%;}
     }
     .leg2 {
-      position: relative;
+      position: absolute;
       width: 40.5%;
-      margin-left: 8%;
+      left: 51.5%;
       animation: leg2 2s linear infinite;
     }
     @keyframes leg2 {
-    0%{left: 0%;}
-    50%{left: 2%;}
-    100%{left: 0%;}
+    0%{left: 51.5%;}
+    50%{left: 54.5%;}
+    100%{left: 51.5%;}
     }
 
     .gsquare3 {
@@ -1135,7 +1144,7 @@
     @keyframes gball5 {
       0%{left:30%; top:77%;}
       25%{left:4%; top:0%;}
-      50%{left:77%; top:15%;}
+      50%{left:70%; top:15%;}
       75%{left:0; top:45%;}
       100%{left:30%; top:77%;}
     }
@@ -1688,12 +1697,30 @@
       /* text-align: center; */
     }
     .wheel2{
-      position: relative;
-      display: inline-block;
-      width: 35%;
-      margin-left: 2%;
-      margin-top: 8%;
-      margin-right: -11%;
+      position: absolute;
+      width: 27%;
+      left: 6.5%;
+      top: 25%;
+      animation: wheel2 12s linear infinite ;
+      /* animation-duration: 12s; */
+      /* animation-iteration-count: infinite; */
+      /* animation-fill-mode: forwards; */
+    }
+    .wheel3{
+      position: absolute;
+      width: 27%;
+      left: 36.5%;
+      top: 25%;
+      animation: wheel2 12s linear infinite ;
+      /* animation-duration: 12s; */
+      /* animation-iteration-count: infinite; */
+      /* animation-fill-mode: forwards; */
+    }
+    .wheel4{
+      position: absolute;
+      width: 27%;
+      left: 66.5%;
+      top: 25%;
       animation: wheel2 12s linear infinite ;
       /* animation-duration: 12s; */
       /* animation-iteration-count: infinite; */
@@ -1927,6 +1954,7 @@
           <div class="semicircle">
           </div>
           <img class="ptriangle" src="images/ptriangle.svg" alt="">
+          <img class="pitriangle" src="images/pitriangle.svg" alt="">
 
      </div><!--
   --><div class="gsquare2">
@@ -2187,9 +2215,9 @@
      </div>
    </div><!--
 --><div class="row4">
-     <img class="wheel2" src="images/wheeel.svg" alt="">
-     <img class="wheel2" src="images/wheeel.svg" alt="">
-     <img class="wheel2" src="images/wheeel.svg" alt="">
+     <img class="wheel2" src="images/wheeel3.svg" alt="">
+     <img class="wheel3" src="images/wheeel3.svg" alt="">
+     <img class="wheel4" src="images/wheeel3.svg" alt="">
   </div><!--
 --><div class="gsquare4">
      <div class="bmouth">
