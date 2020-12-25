@@ -87,7 +87,7 @@ div .wzrachok {top: 15%;}
 }
 
 
-@media all and (min-width: 1024px) and (max-width: 1209px){
+@media all and (min-width: 1190px) and (max-width: 1209px){
   div .panel {border: 14px solid #FF57B3; border-radius: 165px;}
 div .shelf1 {border-radius: 160px; border: 13px solid #8000D4;}
 div .frame1 {border: 6px solid #FF57B3; border-radius: 180px;}
@@ -184,63 +184,7 @@ div .wrect3 {top: 27%;}
 div .wzrachok {top: 16.5%;}
 }
 
-@media and (max-width: 1024px){
-div .ratio {position:relative; padding-bottom: 470.800781%; background:transparent;}
-div .row1 {height: 7.81995437%;}
-div .gsquare1 {height: 9.00228168%; width: 31.7382812%}
-div .pisquare1 {height: 9.00228168%; width: 34.765625%}
-div .pusquare1 {height: 9.00228168%; width: 33.4960938%; background-color: #FF8947;}
-div .osquare1 {width: 31.7382812%; height: 7.79921178%;}
-div .pisquare2 {width: 34.765625%; height: 7.79921178%; background-color: #8000D4;}
-div .gsquare2 {width: 33.4960938%; height: 7.79921178%;}
-div .pusquare2 {width: 43.1640625%; height: 11.1180253%; background-color: #FF57B3;}
-div .osquare2 {width:56.8359375%; height: 11.1180253%}
-div .gsquare3 {width: 50.0976562%; height: 10.3298071%;}
-div .pisquare3 {width: 49.9023438%; height: 10.3298071%;}
-div .row2 {width: 100%; height: 9.2511927%;}
-div .pisquare4 {width: 45.5078125%; height: 12.3418378%;}
-div .osquare3 {width: 54.4921875%; height: 12.3418378%;}
-div .row3 {width: 100%; height: 9.9564406%;}
-div .pusquare3 {width: 34.765625%; height: 8.69114292%;}
-div .pisquare5 {width: 32.3242188%; height: 8.69114292%;}
-div .row4 {width: 32.9101562%; height: 8.69114292%;}
-div .gsquare4 {width: 57.421875%; height: 11.5951048%; background-color: #FF8947;}
-div .pusquare4 {width: 42.578125%; height: 11.5951048%;}
-div .footer {width: 100%; height: 2.24019913%;}
-
-
-div .panel {border: 9px solid #FF57B3; border-radius: 95px;height: 60%;}
-div .btn1 {left: 38.8%;}
-div .hair1 {margin-top: 18.5%;}
-div .head1{height: 32%;}
-div .shelf1 {border-radius: 80px; border: 7px solid #8000D4; margin-top: -107%; width: 50%; margin-left: 23.3%;}
-div .pipe1 {margin-top:0%;}
-div .frame1 {border: 2.5px solid #FF57B3; border-radius: 170px;}
-div .p1 {font-size: 9px;}
-div .btntr {left: 20%;}
-div .btncir {left: 42.9%;}
-div .gcircle {width: 25%;}
-div .semicircle {width: 45%;}
-div .ptriangle {display: 0;}
-div .pitriangle {opacity: 100; top:66%;}
-div .body2 {margin-top: 3.2%;}
-div .shelf2 {border: 9px solid #FF57B3; border-radius: 130px; margin-left: 3%;}
-div .frame2 {border: 5px solid #FF57B3; border-radius: 160px;}
-div .p2 {font-size: 16px;}
-div .mouth8 {border: 14px solid white;}
-div .shelf3 {border: 45px solid #FF57B3; margin-top: 17%;margin-left: 8.3%;}
-div .raduzhka {left: 18%; top: 18%;border: 20px solid white;}
-div .lashes {margin-left: 5.2%;}
-div .puzrachok {top: -1.2%;}
-div .wrect3 {top: 17%;}
-div .wzrachok {top: 18%; left: 35%;}
-div .gwsquare {margin-left: 8.8%;}
-div .wheel2 {width: 65%; left: 17.3%;}
-div .wheel3 {display: none;}
-div .wheel4 {display: none;}
-div .p3 {font-size: 20px;margin-top: 1.55%;}
-}
-@media all and (min-width: 1000px) and (max-width: 1010px){
+@media all and (min-width: 1000px) and (max-width: 1024px){
 
   div .ratio {position:relative; padding-bottom: 470.800781%; background:transparent;}
   div .row1 {height: 7.81995437%;}
